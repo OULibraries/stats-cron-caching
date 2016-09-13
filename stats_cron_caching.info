@@ -1,0 +1,7 @@
+name = stats cron caching
+description = cache the stats pages every time the cron runs
+
+core = 7.x
+package = Drupal 7 Development
+
+files[] = stats_cron_caching.module
