@@ -1,0 +1,12 @@
+<?php
+
+/**
+ * Implements hook_views_api().
+ */
+function stats_cron_caching_views_api() {
+  return array(
+    'api' => 3.0
+  );
+}
+
+module_load_include('inc', 'stats_cron_caching', 'stats_cron_caching');
